@@ -134,6 +134,7 @@
 		01B02D2D13A5B57E0047BC53 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 013D1F0B13A5ADC300BF0A67 /* libcrypto.dylib */; };
 		01B02D3A13A5B72B0047BC53 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 013D1F0B13A5ADC300BF0A67 /* libcrypto.dylib */; };
 		01EB826413A590D9003EDE60 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01EB826313A590D9003EDE60 /* Foundation.framework */; };
+		C255EBF316B187F100B6EE7F /* NSUUID.m in Sources */ = {isa = PBXBuildFile; fileRef = C255EBF216B187F100B6EE7F /* NSUUID.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		DA7533B213AA587A003BE32C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01EB826313A590D9003EDE60 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -418,6 +419,7 @@
 		01EB831E13A591D8003EDE60 /* CDVisitor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVisitor.m; path = Source/CDVisitor.m; sourceTree = SOURCE_ROOT; };
 		01EB831F13A591D8003EDE60 /* CDVisitorPropertyState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CDVisitorPropertyState.h; path = Source/CDVisitorPropertyState.h; sourceTree = SOURCE_ROOT; };
 		01EB832013A591D8003EDE60 /* CDVisitorPropertyState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CDVisitorPropertyState.m; path = Source/CDVisitorPropertyState.m; sourceTree = SOURCE_ROOT; };
+		C255EBF216B187F100B6EE7F /* NSUUID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSUUID.m; path = Source/NSUUID.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -685,6 +687,7 @@
 				01EB828E13A591A5003EDE60 /* NSScanner-CDExtensions.m */,
 				01EB828F13A591A5003EDE60 /* NSString-CDExtensions.h */,
 				01EB829013A591A5003EDE60 /* NSString-CDExtensions.m */,
+				C255EBF216B187F100B6EE7F /* NSUUID.m */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -1094,6 +1097,7 @@
 				0179B9EC14F204AA00EC98F7 /* CDLCSourceVersion.m in Sources */,
 				0179B9F814F20E9800EC98F7 /* CDLCDataInCode.m in Sources */,
 				0194945D1673F8F400A29005 /* CDProtocolUniquer.m in Sources */,
+				C255EBF316B187F100B6EE7F /* NSUUID.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
